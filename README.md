@@ -138,5 +138,14 @@ to keep an archivable (frozen in time) version of the build environment.
 Please see the readme.md in the shim-builder folder for instructions. There is a Packer
 config to easily create the VM image or you can manually create the VM.
 
-[1] https://github.com/rhboot/shim/releases/download/12/shim-12.tar.bz2
+# Microsoft shim submission number
+
+UEFI submission #1960972
+
+# Submitted signed cab file
+
+The cab file which has been sent to Microsoft as UEFI submission is shimx64.efi.cab.
+The cab file has been signed with our Service Planet EV code signing key.
+
+[1] https://github.com/rhboot/shim/releases/download/12/shim-12.tar.bz2  
 [2] shimx64.efi.tar.bz2 SHA512: ad19aa29156b327291233e78a579827fd6f3d328e03dff259dd25a691b9496fbf982e79b76969b013d4a4f0f8837f7b804566b2eb7b9052e3286b12c21604d2a

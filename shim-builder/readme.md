@@ -87,33 +87,14 @@ Perpare the shim source
 -----------------------
 
 In $PROJECT_HOME we will prepare the source tree which we are going to build later on in the build VM.
-
-
-Check out the shim source and switch to the `0.9` release:
-```
-$ cd $PROJECT_HOME/shim
-$ git clone https://github.com/rhinstaller/shim.git source
-$ cd source
-$ git checkout 0.9
-```
-
-Verify the authenticity of the `0.9` sources. `gpg` must indicate `Good signature` (this assumes you have established trust with the correct GPG keys as instructed in the `Requirements` chapter):
-```
-$ git tag -v 0.9
-```
-
-In order to make shim build on RHEL / CentOS 7.3 two patches need to be applied to the Makefile:
+Download the shim v1.2 release source from https://github.com/rhboot/shim/releases/download/12/shim-12.tar.bz2
+and extract it to the source folder.  
 
 ```
-$ git cherry-pick d9a4c912c0aa72905ca793b555dcb0afb33e3b30
-$ git cherry-pick 937503156b73626b0efa88913673d9f452d1f579
+$ wget https://github.com/rhboot/shim/releases/download/12/shim-12.tar.bz2 ./ 
+$ tar -jxf shim-12.tar.bz2 -C ./shim/source   
 ```
 
-Verify with GIT diff that the only thing that was modified was the Makefile:
-
-```
-$ git diff 0.9
-```
 
 Copy the Service Planet signing cerficate in to the shim source so we can embed it in to shim when we are going to build it:
 
@@ -162,7 +143,7 @@ Login in to the VM with `root` / `root`.
 In your VM build the shim with the Service Planet certificate in them:
 
 ```
-# cd /root/source
+# cd /root/source/shim-12
 # make VENDOR_CERT_FILE=/root/source/sp_code_signing_cert.der
 ```
 
@@ -175,7 +156,7 @@ This produces the following deliverables:
 Copy the deliverables out of your VM. Do this by stopping your VM and then running the following command in on your host PC:
 
 ```
-$ virt-copy-out -a $PROJECT_HOME/packer/packer_output/shim_builder_image-packer /root/source/shimx64.efi /root/source/mmx64.efi.signed /root/source/fbx64.efi.signed $PROJECT_HOME/shim/
+$ virt-copy-out -a $PROJECT_HOME/packer/packer_output/shim_builder_image-packer /root/source/shim-12/shimx64.efi /root/source/shim-12/mmx64.efi.signed /root/source/shim-12/fbx64.efi.signed $PROJECT_HOME/shim/
 ```
 
 The compiled unigned Service Planet shim will be located in: `$PROJECT_HOME/shim/`.

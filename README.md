@@ -2,14 +2,13 @@
 
 According to the shim signing procedure: https://pjones.fedorapeople.org/shim-signing-procedure.html
 
-# a brief text explanation of who's asking for it to be signed and why, what's your organization, what's the product
+# Who, what and why
 
 We (me, Jasper Siepkes and my colleague Wai Kon Tse) represent an organization
 called Service Planet Rotterdam B.V.. We are located in Rotterdam, the
 Netherlands and specialize in consumer electronics after sales services; In
 short that means we help our customers help their customers. This ranges from
-the repair of PC's (about 1500 a month) and onsite installation (about 600 a
-month) to helpdesk services and appliances to help support personnel in stores.
+the repair of PC's and onsite installation to helpdesk services and appliances to help support personnel in stores.
 The product for which we are applying for shim signing is an appliance codenamed
 "Cyric" which is designed to help support personnel in stores. Cyric consists of
 a server and a client. The Cyric client is a Linux distribution which users can
@@ -38,9 +37,9 @@ For the product itself we use a custom kernel because we need to backport
 support for the latest and greatest drivers. We are also experimenting with
 creating fixes for weird hardware (still in the early phases). 
 
----------------------------------------------------
-does it really need to be signed for the whole world to be able to boot it
----------------------------------------------------
+
+# does it really need to be signed for the whole world to be able to boot it
+
 
 Cyric deals with a very large amount of different models, brands and types of
 consumer PC's that are not under our direct control or ownership. Unfortunately
@@ -70,7 +69,7 @@ reasonably well known in the linux community.
 
 ## Security contacts:
 
-Full name: Jasper Siepkes 
+Full name: Jasper Siepkes
 Phone: +31 6 52084933
 Phone: +31 10 4008207
 Company: Serivce Planet Rotterdam B.V.
@@ -132,11 +131,13 @@ commerce about Service Planet.
 
 We used the official 1.2 release from GitHub [1].
 
-# build instructions, including what OS to start with, where to get OS images,
-# etc. I'm going to try to reproduce your build as close as possible to verify
-# that it's really a build of the source tree you tell us it is, so these need to
-# be fairly thorough. At the very least include the specific versions of gcc,
-# binutils, and gnu-efi which were used, and where to find those binaries.
+# Build instructions
+
+Bbuild instructions, including what OS to start with, where to get OS images,
+etc. I'm going to try to reproduce your build as close as possible to verify
+that it's really a build of the source tree you tell us it is, so these need to
+be fairly thorough. At the very least include the specific versions of gcc,
+binutils, and gnu-efi which were used, and where to find those binaries.
 
 In order to make verification of the shim binary easier we build the shim with a
 vanilla CentOS 7.1611 ISO image in a VM. That also make it easier for ourselves

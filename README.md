@@ -69,32 +69,32 @@ reasonably well known in the linux community.
 
 ## Security contacts:
 
-Full name: Jasper Siepkes
-Phone: +31 6 52084933
-Phone: +31 10 4008207
-Company: Serivce Planet Rotterdam B.V.
-Position: ICT Manager (Co-founder), Developer
-Location: the Netherlands, Rotterdam
-E-Mail (primary): siepkes@serviceplanet.nl
+Full name: Jasper Siepkes    
+Phone: +31 6 52084933   
+Phone: +31 10 4008207  
+Company: Serivce Planet Rotterdam B.V.  
+Position: ICT Manager (Co-founder), Developer  
+Location: the Netherlands, Rotterdam  
+E-Mail (primary): siepkes@serviceplanet.nl  
 E-Mail (backup): jasper@siepkes.nl
-PGP Key ID: 0x9EF4EC108BEF11C5
-PGP Key Fingerprint: A15F E099 A0D2 5523 7CF5  5E16 9EF4 EC10 8BEF 11C5
-Fedora Key server: https://keys.fedoraproject.org/pks/lookup?search=0x9EF4EC108BEF11C5&op=vindex
-Full public key (including photo for ID): https://www.serviceplanet.nl/pgp/0x9EF4EC108BEF11C5.asc
-Facebook (added my PGP key): https://www.facebook.com/jasper.siepkes
+PGP Key ID: 0x9EF4EC108BEF11C5  
+PGP Key Fingerprint: A15F E099 A0D2 5523 7CF5  5E16 9EF4 EC10 8BEF 11C5  
+Fedora Key server: https://keys.fedoraproject.org/pks/lookup?search=0x9EF4EC108BEF11C5&op=vindex  
+Full public key (including photo for ID): https://www.serviceplanet.nl/pgp/0x9EF4EC108BEF11C5.asc  
+Facebook (added my PGP key): https://www.facebook.com/jasper.siepkes  
 Github (added my PGP key): https://github.com/siepkes
 
 
-Full name: Wai Kon Tse
-Company: Serivce Planet Rotterdam B.V.
-Position: Developer
-Location: the Netherlands, Rotterdam
-E-Mail (primary): tse@serviceplanet.nl
-PGP Key ID: 0xD20A5F35772B17D4
+Full name: Wai Kon Tse  
+Company: Serivce Planet Rotterdam B.V.  
+Position: Developer  
+Location: the Netherlands, Rotterdam  
+E-Mail (primary): tse@serviceplanet.nl  
+PGP Key ID: 0xD20A5F35772B17D4  
 PGP Key Fingerprint: 4932 5B19 1DB2 26F9 3F0E 56B6 D20A 5F35 772B 17D4
-Fedora Key server:
+Fedora Key server:  
 https://keys.fedoraproject.org/pks/lookup?search=0xD20A5F35772B17D4&op=vindex
-Full public key
+
 
 As for verification of my identity (Jasper); I'm not close enough with any
 prominent Linux developer for them to verify my identity. I'm also more active

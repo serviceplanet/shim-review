@@ -79,12 +79,11 @@ E-Mail (primary): siepkes@serviceplanet.nl
 E-Mail (backup): jasper@siepkes.nl
 PGP Key ID: 0x9EF4EC108BEF11C5
 PGP Key Fingerprint: A15F E099 A0D2 5523 7CF5  5E16 9EF4 EC10 8BEF 11C5
-Fedora Key server:
-https://keys.fedoraproject.org/pks/lookup?search=0x9EF4EC108BEF11C5&op=vindex
-Full public key (including photo for ID):
-https://www.serviceplanet.nl/pgp/0x9EF4EC108BEF11C5.asc
+Fedora Key server: https://keys.fedoraproject.org/pks/lookup?search=0x9EF4EC108BEF11C5&op=vindex
+Full public key (including photo for ID): https://www.serviceplanet.nl/pgp/0x9EF4EC108BEF11C5.asc
 Facebook (added my PGP key): https://www.facebook.com/jasper.siepkes
 Github (added my PGP key): https://github.com/siepkes
+
 
 Full name: Wai Kon Tse
 Company: Serivce Planet Rotterdam B.V.
@@ -133,7 +132,7 @@ We used the official 1.2 release from GitHub [1].
 
 # Build instructions
 
-Bbuild instructions, including what OS to start with, where to get OS images,
+Build instructions, including what OS to start with, where to get OS images,
 etc. I'm going to try to reproduce your build as close as possible to verify
 that it's really a build of the source tree you tell us it is, so these need to
 be fairly thorough. At the very least include the specific versions of gcc,
@@ -147,5 +146,3 @@ config to easily create the VM image or you can manually create the VM.
 
 [1] https://github.com/rhboot/shim/releases/download/12/shim-12.tar.bz2
 [2] shim.tar.bz2 SHA512: 1b82f60962e2355cfd5d1a183db99ca7cc22683b02fae2b102340d0dd5104327ad6d158b2b3c51267c0aaeb3b449b959b9ac2f4ce4add4105e00bf54dfff2f95
-
-

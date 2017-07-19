@@ -132,12 +132,6 @@ We used the official 1.2 release from GitHub [1].
 
 # Build instructions
 
-Build instructions, including what OS to start with, where to get OS images,
-etc. I'm going to try to reproduce your build as close as possible to verify
-that it's really a build of the source tree you tell us it is, so these need to
-be fairly thorough. At the very least include the specific versions of gcc,
-binutils, and gnu-efi which were used, and where to find those binaries.
-
 In order to make verification of the shim binary easier we build the shim with a
 vanilla CentOS 7.1611 ISO image in a VM. That also make it easier for ourselves
 to keep an archivable (frozen in time) version of the build environment.
@@ -145,4 +139,4 @@ Please see the readme.md in the shim-builder folder for instructions. There is a
 config to easily create the VM image or you can manually create the VM.
 
 [1] https://github.com/rhboot/shim/releases/download/12/shim-12.tar.bz2
-[2] shim.tar.bz2 SHA512: 1b82f60962e2355cfd5d1a183db99ca7cc22683b02fae2b102340d0dd5104327ad6d158b2b3c51267c0aaeb3b449b959b9ac2f4ce4add4105e00bf54dfff2f95
+[2] shimx64.efi.tar.bz2 SHA512: ad19aa29156b327291233e78a579827fd6f3d328e03dff259dd25a691b9496fbf982e79b76969b013d4a4f0f8837f7b804566b2eb7b9052e3286b12c21604d2a

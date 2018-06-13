@@ -61,7 +61,7 @@ Who is the primary contact for security updates, etc.
 -------------------------------------------------------------------------------
 - Name: Jasper Siepkes
 - Position: ICT Manager (Co-founder), Developer
-- Email address: ICT Manager (Co-founder), Developer
+- Email address: siepkes@serviceplanet.nl
 - PGP key, signed by the other security contacts, and preferably also with signatures that are reasonably well known in the linux community:
 PGP Key ID: 0x9EF4EC108BEF11C5
 PGP Key Fingerprint: A15F E099 A0D2 5523 7CF5  5E16 9EF4 EC10 8BEF 11C5

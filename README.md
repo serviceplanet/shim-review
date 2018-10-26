@@ -103,7 +103,7 @@ following the guide provided by the url **https://github.com/serviceplanet/shim-
 -------------------------------------------------------------------------------
 Which files in this repo are the logs for your build?   This should include logs for creating the buildroots, applying patches, doing the build, creating the archives, etc.
 -------------------------------------------------------------------------------
-[your text here]
+build_log
 
 
 -------------------------------------------------------------------------------

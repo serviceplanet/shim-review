@@ -140,3 +140,8 @@ Microsoft Uefi submission ID
 ``` no-highlight
 14105650530628646
 ```
+
+--------------------------------------------------------------------------------
+Location of build log and produced binary
+--------------------------------------------------------------------------------
+https://github.com/serviceplanet/shim-review

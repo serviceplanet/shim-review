@@ -84,7 +84,7 @@ What upstream shim tag is this starting from:
 -------------------------------------------------------------------------------
 URL for a repo that contains the exact code which was built to get this binary:
 -------------------------------------------------------------------------------
-`https://github.com/serviceplanet/shim-builder`
+https://github.com/serviceplanet/shim-builder
 
 -------------------------------------------------------------------------------
 What patches are being applied and why:
@@ -123,4 +123,20 @@ Put info about what kernel you're using, including which patches it includes to 
 ``` no-highlight
 The kernel we are using is fedora 28 kernel tagged **kernel-4.16.14-300.fc28**
 with commit hash of **217860d07996562757ba22a1108c218c5a40b38e**.
+```
+
+--------------------------------------------------------------------------------
+sha256 of shimx64.efi
+--------------------------------------------------------------------------------
+
+``` no-highlight
+b52df1bd99a29cd4e6f53c799fc6c2c89650925c8f073c8fdd1b21fcf985bd02  shimx64.efi
+```
+
+--------------------------------------------------------------------------------
+Microsoft Uefi submission ID
+--------------------------------------------------------------------------------
+
+``` no-highlight
+14105650530628646
 ```

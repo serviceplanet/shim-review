@@ -2,9 +2,9 @@ This repo is for review of requests for signing shim.  To create a request for r
 
 - [x] clone this repo
 - [x] edit the template below
-- [ ] add the shim.efi to be signed
-- [ ] add build logs
-- [ ] commit all of that
+- [x] add the shim.efi to be signed
+- [x] add build logs
+- [x] commit all of that
 - [ ] tag it with a tag of the form "myorg-shim-arch-YYYYMMDD"
 - [x] push that to github
 - [ ] file an issue at https://github.com/rhboot/shim-review/issues with a link to your tag
